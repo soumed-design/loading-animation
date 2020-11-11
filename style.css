@@ -1,0 +1,65 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+  background-color: #000;
+}
+.word{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.letter{
+  font-size: 100px;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 100;
+  letter-spacing: 15px;
+}
+.loader{
+  align-items: center;
+  justify-content: center;
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  border: 0.6rem solid #484848;
+  margin: 0 15px 0 0;
+  border-top-color:#fff ;
+  animation: 1.5s spinner infinite linear;
+}
+@keyframes spinner{
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
